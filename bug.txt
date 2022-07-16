@@ -1,0 +1,7 @@
+1. Error: Transaction reverted: function selector was not recognized and there’s no fallback function
+ Transaction reverted: function selector was not recognized and there's no fallback function
+1 solution: reset metamask account
+
+2. Error: No Contract deployed with name Raffle
+run with network set as localhost, chainId sometimes 1337 rather than 31337, guess
+hh run scripts/mockOffchain.js --network localhost
